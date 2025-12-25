@@ -1,9 +1,9 @@
 # 🧠 Failure-Aware CRAG with Explicit Hallucination Detection and Evidence Coverage Scoring
 
 <p align="center">
-  <img src="assets/system_architecture.png" width="750">
+  <img src="system_architecture.png.png" width="750">
   <br>
-  <em>System architecture of the Failure-Aware CRAG pipeline with retrieval adequacy checks, evidence coverage scoring, and adaptive fallback.</em>
+  <em>System architecture of the Failure-Aware CRAG pipeline.</em>
 </p>
 
 > **Failure-Aware CRAG** is a hallucination-resistant retrieval-augmented QA system that explicitly detects insufficient evidence, verifies answer grounding via evidence coverage scoring, and adapts retrieval or falls back to the web when document support fails.
@@ -154,3 +154,4 @@ This corresponds to an approximate **70–75% reduction in hallucinations**, ach
 ```bash
 cd src
 streamlit run app.py
+
